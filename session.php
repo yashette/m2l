@@ -17,7 +17,7 @@
                 session_start();
             
                 if($_SESSION['login'] == ""){
-              
+                    echo "test";
               header("location:login.php");  }
                 
             ?>
@@ -26,6 +26,8 @@
             <a class="content" href="intres.php">espace responsable</a><br/><br/>
             <a class="content" href="intemp.php">espace employer</a><br/><br/>
             <a class="content" href="demande.php">Faire une demande</a><br/><br/>
+
+            
         </div></div>
     </body>
 </html>
