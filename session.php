@@ -17,7 +17,6 @@
                 session_start();
             
                 if($_SESSION['login'] == ""){
-                    echo "test";
               header("location:login.php");  }
                 
             ?>
